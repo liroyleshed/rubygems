@@ -1,0 +1,13 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    raygun-apm (1.0.78-universal-darwin)
+
+PLATFORMS
+  x86_64-darwin-19
+
+DEPENDENCIES
+  raygun-apm
+
+BUNDLED WITH
+   2.2.8
