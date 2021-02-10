@@ -19,4 +19,4 @@ jobs:
         with:
           ruby-version: 2.7.2
           bundler: none
-      - run: ruby -Ilib bundler/exe/bundle lock --add-platform x86_64-linux
+      - run: DEBUG_RESOLVER=1 ruby -Ilib bundler/exe/bundle lock --add-platform x86_64-linux
